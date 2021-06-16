@@ -96,7 +96,7 @@ Examples :
 #undef  STA_PASS1
 #define STA_PASS1         "rcalL7z47sioutabi"     // [Password1] Wifi password
 
-
+#define USE_BERRY
 
 
 #endif  // _USER_CONFIG_OVERRIDE_H_
