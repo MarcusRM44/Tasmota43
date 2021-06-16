@@ -82,6 +82,19 @@ Examples :
 // !!! Remember that your changes GOES AT THE BOTTOM OF THIS FILE right before the last #endif !!! 
 */
 
+#ifndef USE_SCRIPT
+#define USE_SCRIPT
+#endif
+
+#ifdef USE_RULES
+#undef USE_RULES
+#endif
+
+#undef  STA_SSID1
+#define STA_SSID1         "Mayfield"             // [Ssid1] Wifi SSID
+
+#undef  STA_PASS1
+#define STA_PASS1         "rcalL7z47sioutabi"     // [Password1] Wifi password
 
 
 
